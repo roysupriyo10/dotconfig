@@ -1,0 +1,65 @@
+
+* {
+  font-family: "Overpass Nerd Font";
+  font-size: 16px;
+}
+
+window {
+  border-radius: 20px;
+}
+
+#input {
+  outline: none;
+  background-color: #333333;
+  margin-bottom: 15px;
+  padding:3px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+
+#input:focus {
+  outline: none;
+}
+
+#input:active {
+  outline: none;
+}
+
+#input > image.left {
+  color: #777777;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* -gtk-icon-transfform:scaleX(0); */
+}
+
+#input > image.right {
+  -gtk-icon-transform:scaleX(0);
+}
+
+#inner-box {
+
+  background-color: #1f1f2f;
+}
+
+#outer-box {
+  border: 2px solid grey;
+  padding: 10px;
+  background-color: #1e1e2e;
+  border-radius: 15px;
+}
+
+#text {
+  padding: 5px;
+  color: #b6c0cd;
+}
+
+#entry {
+  padding: 10px;
+}
+
+#entry:selected {
+  background-color: #333333;
+  color: #1E242f;
+  border-radius: 10px;
+}

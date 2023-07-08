@@ -1,0 +1,15 @@
+show=run
+width=1400
+height=158
+hide_scroll=true
+location=1
+x=100
+y=200
+gtk_dark=true
+prompt=...
+no_actions=false
+insensitive=true
+layer=top
+normal_window=false
+key_expand=Tab
+key_exit=Escape
